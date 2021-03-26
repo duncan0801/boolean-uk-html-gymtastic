@@ -67,8 +67,7 @@ button.membership {
   width: 200px;
   height: 50px;
 
-  margin-right: 20px;
-  margin: 30px 0px;
+  margin: 30px 20px;
 
   border: 3px #00000080 solid;
   border-radius: 8px;
@@ -98,8 +97,6 @@ div.row {
 .testimonials {
   background-color: #0c6291;
   color: #fbfef9;
-
-
 }
 
 .name {
@@ -107,36 +104,34 @@ div.row {
 }
 
 p.review-one {
-  border-right: 2px #fbfef980 solid
+  border-right: 2px #fbfef980 solid;
 }
 
 h2.testimonials {
- color: #fbfef9;
+  color: #fbfef9;
 }
 
 .testimonial {
   display: table-cell;
 
   text-align: center;
-  font
-
-  
 }
-
 
 .feature-link {
-    margin: 10px 20px;
-    text-align: none;
-    text-decoration: none;
-    color: #fbfef9;
-    padding-left: 30px;
-  
+  margin: 10px 20px;
+  text-align: none;
+  text-decoration: none;
+  color: #fbfef9;
+  padding-left: 30px;
 }
 
-.gym-link {
+.gym-link a {
   padding-left: 40px;
   list-style-type: none;
-  color: #4d9c1900;
+}
+
+.gym-link a {
+  color: #fbfef9cc;
 }
 
 footer {
