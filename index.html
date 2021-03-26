@@ -34,16 +34,18 @@ In this page add the about information, and after create a section that has a ro
 
     <!-- NAVBAR AND HEADER -->
 
-    <header class="section navbar-div">
+    <header class="section navbar-div" id="home">
       <div class="logodiv">
         <h1 class="logo">Gymtastic</h1>
       </div>
 
       <nav>
         <ul>
-          <li class="nav-button" id="home"><a href="">Home</a></li>
+          <li class="nav-button" id="home"><a href="#home">Home</a></li>
           <li class="nav-button" id="about"><a href="">About Us</a></li>
-          <li class="nav-button" id="contact"><a href="">contact</a></li>
+          <li class="nav-button" id="contact">
+            <a href="#socials">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -67,48 +69,60 @@ In this page add the about information, and after create a section that has a ro
 
     <!-- SOCIAL SECTION -->
 
-    <div class="section socials">
+    <div id="socials" class="section socials">
       <h2 class="section-heading follow">Follow us on</h2>
 
       <button class="button social instagram">Instagram</button>
-      <button class="button social Facebook">Facebook</button>
-      <button class="button social YouTube">YouTube</button>
+      <button class="button social facebook">Facebook</button>
+      <button class="button social youtube">YouTube</button>
     </div>
 
     <!-- TESTIMONIAL SECTION -->
 
     <div class="section testimonials">
-      <div class="testimonial 1">
-        <h4 class="name 1">Jack</h4>
-        <p class="review">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, aut
-          praesentium alias illum itaque quasi nemo earum laudantium veritatis
-          nesciunt recusandae fuga. Soluta illo quae vitae fuga animi iusto id.
-        </p>
-      </div>
+      <h2 class="testimonials">Testimonials</h2>
+      <div class="row">
+        <div class="testimonial one">
+          <h4 class="name one">Jack</h4>
+          <p class="review one">
+            <em>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem,
+              aut praesentium alias illum itaque quasi nemo earum laudantium
+              veritatis nesciunt recusandae fuga. Soluta illo quae vitae fuga
+              animi iusto id.
+            </em>
+          </p>
+        </div>
 
-      <div class="testimonial 2">
-        <h4 class="name 2">Jill</h4>
-        <p class="review">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, aut
-          praesentium alias illum itaque quasi nemo earum laudantium veritatis
-          nesciunt recusandae fuga. Soluta illo quae vitae fuga animi iusto id.
-        </p>
-      </div>
+        <div class="testimonial two">
+          <h4 class="name two">Jill</h4>
+          <p class="review two">
+            <em>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem,
+              aut praesentium alias illum itaque quasi nemo earum laudantium
+              veritatis nesciunt recusandae fuga. Soluta illo quae vitae fuga
+              animi iusto id.
+            </em>
+          </p>
+        </div>
 
-      <div class="testimonial 3">
-        <h4 class="name 3">Rubber DuckS</h4>
-        <p class="review">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, aut
-          praesentium alias illum itaque quasi nemo earum laudantium veritatis
-          nesciunt recusandae fuga. Soluta illo quae vitae fuga animi iusto id.
-        </p>
+        <div class="testimonial three">
+          <h4 class="name three">Rubber Ducky</h4>
+          <p class="review three">
+            <em
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dolorem, aut praesentium alias illum itaque quasi nemo earum
+              laudantium veritatis nesciunt recusandae fuga. Soluta illo quae
+              vitae fuga animi iusto id.</em
+            >
+          </p>
+        </div>
       </div>
     </div>
 
     <!-- POPULAR FEATURES SECTION -->
 
-    <div class="section popular-features">
+    <footer class="section popular-features">
       <h3 class="heading popular-features">Popular Features</h3>
 
       <div class="features-list">
@@ -154,6 +168,6 @@ In this page add the about information, and after create a section that has a ro
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

@@ -8,6 +8,16 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+  color: #ea526f;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #fbfef9;
+  text-decoration: underline;
+}
+
 .logodiv,
 nav,
 .nav-button {
@@ -21,12 +31,114 @@ header {
   padding: 30px;
   background-color: #ea526f;
 
-  color: #eeeeee;
+  color: #fbfef9;
 }
 
 a {
   text-align: center;
   text-decoration: none;
-  color: #eeeeee;
+  color: #fbfef9;
   padding-left: 30px;
+}
+
+p {
+  padding: 20px 0;
+}
+
+strong {
+  color: #ea526f;
+}
+
+button.membership {
+  width: 200px;
+  height: 50px;
+
+  background-color: #62946090;
+
+  border: 3px #629460 solid;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.button.social {
+  width: 200px;
+  height: 50px;
+
+  margin-right: 20px;
+  margin: 30px 0px;
+
+  border: 3px #00000080 solid;
+  border-radius: 8px;
+
+  font-size: 25px;
+  text-align: center;
+  color: #fbfef9;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.button.social.instagram {
+  background-color: #8a3ab9;
+}
+
+.button.social.facebook {
+  background-color: #4267b2;
+}
+
+.button.social.youtube {
+  background-color: #ff0000;
+}
+
+div.row {
+  display: table;
+}
+
+.testimonials {
+  background-color: #0c6291;
+  color: #fbfef9;
+
+
+}
+
+.name {
+  text-decoration: underline;
+}
+
+p.review-one {
+  border-right: 2px #fbfef980 solid
+}
+
+h2.testimonials {
+ color: #fbfef9;
+}
+
+.testimonial {
+  display: table-cell;
+
+  text-align: center;
+  font
+
+  
+}
+
+
+.feature-link {
+    margin: 10px 20px;
+    text-align: none;
+    text-decoration: none;
+    color: #fbfef9;
+    padding-left: 30px;
+  
+}
+
+.gym-link {
+  padding-left: 40px;
+  list-style-type: none;
+  color: #4d9c1900;
+}
+
+footer {
+  background-color: #ea526f;
 }
