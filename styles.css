@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -26,9 +27,9 @@ nav,
 
 header {
   width: 100%;
-  height: 3em;
+  height: 7em;
 
-  padding: 30px;
+  /* padding: 30px; */
   background-color: #ea526f;
 
   color: #fbfef9;
@@ -57,6 +58,9 @@ button.membership {
 
   border: 3px #629460 solid;
   border-radius: 8px;
+
+  color: #fbfef9;
+  font-size: 20px;
 }
 
 .section {
@@ -73,6 +77,7 @@ button.membership {
   border-radius: 8px;
 
   font-size: 25px;
+  font-weight: bold;
   text-align: center;
   color: #fbfef9;
   box-shadow: 0 0 10px #00000080;
@@ -120,14 +125,17 @@ h2.testimonials {
 .feature-link {
   margin: 10px 20px;
   text-align: none;
-  text-decoration: none;
+
   color: #fbfef9;
   padding-left: 30px;
 }
+.feature-link a {
+  text-decoration: square;
+}
 
-.gym-link a {
+.gym-link {
   padding-left: 40px;
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 .gym-link a {
